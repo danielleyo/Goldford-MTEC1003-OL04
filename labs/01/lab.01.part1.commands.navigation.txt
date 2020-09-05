@@ -121,19 +121,13 @@ Follow the instructions line-by-line.
 12. Open a new terminal window. Create a directory called mtec1002. What command did you use?
 ----------
 
-
-
-
-
+mkdir mtec1003
 
 ==========
 13. Change your directory so that you're in mtec1002. What command did you use?
 ----------
 
-
-
-
-
+mkdir mtec1003/mtec1002
 
 ==========
 14. Type:
@@ -147,10 +141,7 @@ If it doesn't ask for help before moving on!
 Copy and paste the output of pwd below.
 ----------
 
-
-
-
-
+/Users/danielleyostolaza
 
 ==========
 15. Type:
@@ -161,10 +152,18 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
-
-
-
+Applications
+Creative Cloud Files
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
+animals
+danielley.ostolaza@mail.citytech.cuny.edu Creative Cloud Files
 
 ==========
 16. Type:
@@ -175,10 +174,19 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
-
-
-
+Applications
+Creative Cloud Files
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
+animals
+danielley.ostolaza@mail.citytech.cuny.edu Creative Cloud Files
+food
 
 ==========
 17. Type:
@@ -189,10 +197,20 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
-
-
-
+Applications
+Creative Cloud Files
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
+animals
+danielley.ostolaza@mail.citytech.cuny.edu Creative Cloud Files
+foo
+food
 
 ==========
 18. Type:
@@ -203,10 +221,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
-
-
-
+/Users/danielleyostolaza/foo/bar/baz/qux
 
 ==========
 19. Type:
@@ -217,11 +232,8 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
-
-
-
-
+/Users/danielleyostolaza/foo/bar
+cd
 ==========
 20. Type:
 
@@ -231,10 +243,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
-
-
-
+/Users/danielleyostolaza
 
 ==========
 21. Type:
@@ -245,10 +254,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
-
-
-
+/
 
 ==========
 22. Type:
@@ -260,10 +266,9 @@ $ ls -l
 Copy and paste the first 3 lines from the output into the space below.
 ----------
 
-
-
-
-
+total 9
+drwxrwxr-x+ 41 root  admin  1312 Sep  2 15:22 Applications
+drwxr-xr-x  67 root  wheel  2144 Aug 19 08:46 Library
 
 ==========
 23. Type:
@@ -274,10 +279,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
-
-
-
+/Users/danielleyostolaza
 
 ==========
 24. Type:
@@ -288,10 +290,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
-
-
-
+/volumes
 
 ==========
 25. Type:
@@ -302,10 +301,10 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
-
-
-
+Danielleys-MBP:volumes danielleyostolaza$ cd /unknown_folder
+-bash: cd: /unknown_folder: No such file or directory
+Danielleys-MBP:volumes danielleyostolaza$ pwd
+/volumes
 
 ==========
 26. Type:
@@ -316,10 +315,10 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
-
-
-
+Danielleys-MBP:volumes danielleyostolaza$ cd ~/mtec1002
+-bash: cd: /Users/danielleyostolaza/mtec1002: No such file or directory
+Danielleys-MBP:volumes danielleyostolaza$ pwd
+/volumes
 
 ==========
 27. Type:
@@ -329,19 +328,13 @@ $ hostname
 Copy and paste the output into the space below.
 ----------
 
-
-
-
-
+Danielleys-MBP.lan
 
 ==========
 28. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
 
-
-
-
-
+mkdir mtec1002
 
 ==========
 29. If you're not in the right directory, type the following command:
@@ -369,10 +362,7 @@ lemon
 Write the one command you used below:
 ----------
 
-
-
-
-
+cd pineapple/orange/strawberry/lemon
 
 ==========
 31. Make another directory called aardvark.
@@ -380,10 +370,7 @@ Write the one command you used below:
 Write the command you used to create the directory below:
 ----------
 
-
-
-
-
+mkdir aardvark
 
 ==========
 32. List the files and directories in the current directory using the long format.
@@ -391,10 +378,7 @@ Write the command you used to create the directory below:
 What is the modified date of the aardvark directory?
 ----------
 
-
-
-
-
+aardvark
 
 ==========
 33. Make 3 directories nested within each other:
@@ -406,10 +390,7 @@ What is the modified date of the aardvark directory?
 What command did you use?
 ----------
 
-
-
-
-
+cd bar/baz/foo
 
 ==========
 34. Change your directory so that you're in the inner most directory (baz)
@@ -417,76 +398,51 @@ What command did you use?
 What command did you use?
 ----------
 
-
-
-
-
+cd ../baz/..
 
 ==========
 35. Change your directory so that you're two directories up (foo)
 
 What command did you use?
 ----------
-
-
-
-
-
-
 ==========
 36. What command is used to delete empty directories?
 ----------
 
-
-
-
-
+rmdir
 
 ==========
 37. What command is used to print out your current working directory?
 ----------
 
-
-
-
-
+ls
 
 ==========
 38. What flag do I pass to ls to print out all files?
 ----------
 
-
-
-
-
+ls (file your working on)
 
 ==========
 39. What's the shortcut for home directory?
 ----------
 
-
-
-
-
+cd or cd~
 
 ==========
 40. What's a pathname?
 ----------
 
-
-
-
-
+is the general form of the name of a file or directory
 
 ==========
 41. What is a directory?
 ----------
 
-
-
-
-
+is files within folders
 
 ==========
 42. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+
+/home/your_user_name/my_script.
