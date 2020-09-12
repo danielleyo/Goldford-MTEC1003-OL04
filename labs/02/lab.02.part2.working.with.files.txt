@@ -16,7 +16,8 @@ Follow the instructions line-by-line.
 What command did you use?
 ----------
 
-
+ls
+pwd mtec1003-lab-02
 
 ==========
 2. Create a directory called my_files. 
@@ -25,8 +26,8 @@ Then, change into your new directory.
 What two commands did you use?
 ----------
 
-
-
+mkdir my_files
+pwd my_files
 
 ==========
 3. Create a new file using touch:
@@ -37,6 +38,27 @@ $ ls
 Copy and paste the output below.
 ----------
 
+Applications
+Creative Cloud Files
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
+animals
+danielley.ostolaza@mail.citytech.cuny.edu Creative Cloud Files
+foo
+foo.txt
+food
+hello.txt
+mtec1002
+mtec1003
+mtec1003-lab-02
+my_files
+stuff
 
 
 
@@ -46,9 +68,7 @@ Copy and paste the output below.
 What command did you use?
 ----------
 
-
-
-
+mkdir "bar.txt"
 
 ==========
 5. Create a copy of bar.txt called baz.txt, and then list the files again.
@@ -57,12 +77,29 @@ Write the commands that you used.
 Also, copy and paste the output of your file listing below.
 ----------
 
-
-
-
-
-
-
+Applications
+Creative Cloud Files
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
+animals
+bar.txt
+baz.txt
+danielley.ostolaza@mail.citytech.cuny.edu Creative Cloud Files
+foo
+foo.txt
+food
+hello.txt
+mtec1002
+mtec1003
+mtec1003-lab-02
+my_files
+stuff
 
 ==========
 6. Delete the file called bar.txt and then list the files again.
@@ -71,7 +108,28 @@ Write the command that you used to remove the file.
 Copy and paste the output of your file listing below.
 ----------
 
-
+Applications
+Creative Cloud Files
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
+animals
+baz.txt
+danielley.ostolaza@mail.citytech.cuny.edu Creative Cloud Files
+foo
+foo.txt
+food
+hello.txt
+mtec1002
+mtec1003
+mtec1003-lab-02
+my_files
+stuff
 
 
 
@@ -86,12 +144,29 @@ Write the command that you used to move the file.
 Copy and paste the output of your file listing below.
 ----------
 
-
-
-
-
-
-
+Applications
+Creative Cloud Files
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
+animals
+bar.txt
+baz.txt
+danielley.ostolaza@mail.citytech.cuny.edu Creative Cloud Files
+foo
+food
+hello.txt
+mtec1002
+mtec1003
+mtec1003-lab-02
+my_files
+qux.txt
+stuff
 
 ==========
 8. Go up one directory so that you're back in ~/mtec1003-lab-02. What command did you use?
@@ -105,11 +180,30 @@ Copy and paste the output of your file listing below.
 Write out the command that you used and what happened.
 ----------
 
+rmdir my_files
 
-
-
-
-
+Applications
+Creative Cloud Files
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
+animals
+bar.txt
+baz.txt
+danielley.ostolaza@mail.citytech.cuny.edu Creative Cloud Files
+foo
+food
+hello.txt
+mtec1002
+mtec1003
+mtec1003-lab-02
+qux.txt
+stuff
 
 ==========
 10. Try removing the directory called my_files using rm.
@@ -117,11 +211,9 @@ Write out the command that you used and what happened.
 Write out the command that you used and what happened.
 ----------
 
+rm my_files
 
-
-
-
-
+rm: my_files: No such file or directory
 
 ==========
 11. First: MAKE SURE YOU'RE IN THE mtec1003-lab-02 directory!
@@ -148,10 +240,7 @@ Use the command called cat on the file to show its contents.
 Describe what happened below.
 ----------
 
-
-
-
-
+-bash: books/other/pg.1232.txt: No such file or directory
 
 ==========
 13. That was a lot of text.  Let's find ways to limit it.  Using the same file...
@@ -163,9 +252,9 @@ Use the command, head, on the file to show the contents of the beginning of the 
 Write the command that you used below.  Write the last line of the output below (it should be the title).
 ----------
 
+head books/other/pg1232.txt
 
-
-
+head: books/other/pg1232.txt: No such file or directory
 
 
 ==========
@@ -178,11 +267,9 @@ Use tail on the file to show the contents of the end of the file.
 Write the command that you used below.  Write the last line of the output below.
 ----------
 
+tail books/other/pg1232.txt
 
-
-
-
-
+tail: books/other/pg1232.txt: No such file or directory
 
 ==========
 15. Using the same file...
@@ -195,7 +282,7 @@ Write the command that you used below.  Describe what spacebar and q does after 
 ----------
 
 
-
+not working 
 
 
 
@@ -206,7 +293,7 @@ Write the command that you used below.  Describe what spacebar and q does after 
 (Some characteristics that may help your description might be the length of the file, whether or not you'd like to read the whole thing... or just the beginning or end, etc.)
 ----------
 
-
+notworking
 
 
 
@@ -217,14 +304,14 @@ Write the command that you used below.  Describe what spacebar and q does after 
 
 
 
-
+not working
 
 
 ==========
 18.  How many lines are in pg1232.txt?  What command did you use to determine the line count?
 ----------
 
-
+not working
 
 
 
@@ -236,7 +323,7 @@ Write the command that you used below.
 ----------
 
 
-
+not working
 
 ==========
 20. To finish up, save this file and, using your mouse or with a Terminal command, 
