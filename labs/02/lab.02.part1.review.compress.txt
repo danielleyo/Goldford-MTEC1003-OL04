@@ -18,7 +18,7 @@ This lab will review downloading and uncompressing files, and it will get us set
 Write the command that you used to do this below:
 ----------
 
-
+ls
 
 ==========
 2. Prove that you're in your home directory.
@@ -26,7 +26,23 @@ Write the command that you used to do this below:
 Write the command that you used to do this - as well as its output - below :
 ----------
 
-
+Applications
+Creative Cloud Files
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
+animals
+danielley.ostolaza@mail.citytech.cuny.edu Creative Cloud Files
+foo
+food
+hello.txt
+mtec1002
+stuff
 
 ==========
 3. Create a new directory inside your home directory named after this class. Call it "mtec1003".
@@ -34,12 +50,12 @@ Write the command that you used to do this - as well as its output - below :
 Write the command that you used to do this:
 ----------
 
-
+mkdir mtec1003
 
 ==========
 4.  A compressed archive (.tar.gz) of some lab files we're using today lives at this url: 
 
-http://einbahnstrasse.github.io/Goldford-MTEC1003-Fall2020/labs/03/mtec1003-lab-02.tar.gz
+http://einbahnstrasse.github.io/Goldford-MTEC1003-Fall2020/labs03/mtec1003-lab-02.tar.gz
 
 Using a Terminal command that we learned, 
 download this file to your home directory into a file called mtec1003-lab-02.tar.gz
@@ -50,7 +66,9 @@ MAKE SURE TO NAME YOUR OUTPUT FILE: mtec1003-lab-02.tar.gz
 Write the command(s) that you used to download this file:
 ----------
 
-
+cp http://einbahnstrasse.github.io/Goldford-MTEC1003-Fall2020/labs/03/mtec1003-lab-02.tar.gz
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file ... target_directory
 
 ==========
 5.  Uncompress the file that you just downloaded. (Remember which command to use for this type of archive...)
@@ -58,10 +76,8 @@ Write the command(s) that you used to download this file:
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
 
-
-
-
-
+tar 
+nothing changed 
 
 ==========
 6.  You should now have a directory called mtec1003-lab-02 inside your mtec1003 directory, 
@@ -74,11 +90,7 @@ Otherwise...
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
 
-
-
-
-
-
+ls
 
 ==========
 7.  What directories are in the mtec1003-lab-02 folder?
@@ -86,10 +98,9 @@ Write the command(s) that you used to do this - as well as its output - below:
 Write the command(s) that you used to determine this - as well as its output - below:
 ----------
 
+pwd 
 
-
-
-
+/Users/danielleyostolaza
 
 ==========
 8.  Go back to your home directory. Then change to the science-fiction directory using a relative path.  The directory is located in books... which is located in the mtec1003-lab-02 directory.  Verify you're in the right directory using pwd.
@@ -98,8 +109,8 @@ Write the commands, including going home, that you used to do this:
 ----------
 
 
-
-
+ls
+pwd mtec-lab-02
 
 
 ==========
@@ -109,7 +120,7 @@ Write the command(s) that you used to do this - as well as its output - below:
 ----------
 
 
-
+nothing changed
 
 
 ==========
@@ -120,8 +131,8 @@ Verify that you're in the right directory using pwd.
 Write the command(s) that you used to do this below:
 ----------
 
-
-
+ls
+pwd mtec1003-lab-02
 
 ==========
 11. Find out what the most recently modified directory is in mtec1003-lab-02. 
@@ -133,11 +144,8 @@ Hint: perhaps use something to show the modified date... and sort it by time...
 Write the command(s) that you used to do this below:
 ----------
 
-
-
-
-
-
+date
+cd mtec-lab-02
 
 ==========
 12. Create a compressed archive of the logs folder: 
