@@ -21,10 +21,7 @@ We're going to be writing a shell script. First, though... let's figure out what
 What command did you use, and what was its output?
 ----------
 
-
-
-
-
+date
 
 ==========
 2. Print out a calendar for this month.
@@ -32,11 +29,7 @@ What command did you use, and what was its output?
 What command did you use, and what was its output?
 ----------
 
-
-
-
-
-
+cal
 
 ==========
 3. Go to your home directory. 
